@@ -1,0 +1,40 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    border-radius: 5px;
+}
+ul li{
+    width: 100px;
+    height: 200px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+ul li.red{
+    background-color: #ff4d4d;
+}
+ul li.green{
+    background-color: #32ff7e;
+}
+ul li.blue{
+    background-color: #4b7bec;
+}
+ul li.black{
+    background-color: #4b4b4b;
+}
+ul li.yellow{
+    background-color: #fffa65;
+}
