@@ -1,2 +1,3 @@
-# jerp-landing
-[Live](https://sadikbd.github.io/jerp-landing/)
+# Simple JS DOM Project
+## Background Color Change
+[Live](https://rhsadikbd.github.io/background-color-change/)
